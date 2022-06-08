@@ -1,0 +1,150 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3{
+  font-family: "Montserrat-Black", sans-serif;
+}
+h1{
+
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2{
+
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+
+}
+h3{
+
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+p{
+  color: #8f8f8f;
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: left;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light", sans-serif;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image{
+  width: 60%;
+  margin-left: 100px;
+  transform: rotate(25deg);
+  /* z-index: -1; */
+/* position: relative; */
+}
+@media (max-width: 1036px) {
+  #title{
+
+  }
+  .title-image{
+    margin-left: 0;
+    position:static;
+    transform: rotate(0);
+  }
+}
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  /* position: absolute; */
+  /* z-index: 1; */
+}
+
+.feature-box{
+
+  padding: 5%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+
+#testimonials {
+  /* padding: 7% 10%; */
+
+  background-color: #ef8172;
+  color: #fff;
+}
+.carousel-item{
+  padding: 7% 10%;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+#press{
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* .card{
+  width:30%;
+} */
+#pricing{
+  padding:100px;
+
+}
+
+.pricing-column{
+  padding:3% 2%;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+
+  padding: 7% 15%;
+
+}
+.ctah{
+
+  /* font-family: "Montserrat-Black", sans-serif; */
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin-bottom: 40px;
+}
+#footer{
+  padding: 2% 15%;
+
+}
+.social-icon{
+  margin:20px 10px;
+}
